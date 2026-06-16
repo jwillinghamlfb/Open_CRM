@@ -1,0 +1,6 @@
+{
+  "name": "Metadata CRM Platform",
+  "description": "An open-source, custom-object metadata CRM platform with dynamic schema builder, live record explorer, and visual workflow automation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

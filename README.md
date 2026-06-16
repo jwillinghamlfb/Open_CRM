@@ -1,12 +1,12 @@
 # Metastash Open-CRM 🚀
 
-Metastash is a dynamic, high-fidelity, open-source metadata-driven CRM engine. Engineered with a Postgres-first mentality and fully compliant with Salesforce custom object semantics, Metastash empowers organizations to design database schemas, configure visual automation pipelines, orchestrate secure Role-Based Access Control (RBAC), and instantly toggle underlying storage adapters between local browser memory, **Google Cloud Firestore**, and **Supabase PostgreSQL**.
+Metastash is a dynamic, high-fidelity, open-source metadata-driven CRM engine. Engineered with a Postgres-first mentality and fully compliant with custom object semantics, Metastash empowers organizations to design database schemas, configure visual automation pipelines, orchestrate secure Role-Based Access Control (RBAC), and instantly toggle underlying storage adapters between local browser memory, **Google Cloud Firestore**, and **Supabase PostgreSQL**.
 
 ---
 
 ## Key Architectural Capabilities
 
-### 1. 📂 Schema Builder (Salesforce Semantic Engines)
+### 1. 📂 Schema Builder (Semantic Engines)
 *   **Dynamic Custom Objects**: Declare tables on the fly. Custom models automatically compile with the `__c` relational suffix.
 *   **Virtual Properties Indexing**: Extend existing attributes dynamically. Add standard fields, checkboxes, lookup relationships, and rich formula properties.
 *   **Simulated PostgreSQL Console**: Every metadata adjustment and custom table installation emits real-world PostgreSQL relational logs in the system drawer to bridge the gap between abstract design and physical layout.
@@ -100,7 +100,7 @@ Manage your storage backends on the **Cloud DB Portal** tab. Below is the quick 
 3.  Navigate to your **SQL Editor** in Supabase, create a **New query**, paste the SQL script below, and click **Run**:
 
 ```sql
--- 1. Metadata Schema Definitions Table (Salesforce Custom Objects)
+-- 1. Metadata Schema Definitions Table (Custom Objects)
 CREATE TABLE IF NOT EXISTS objects (
   id VARCHAR(255) PRIMARY KEY,
   label VARCHAR(255) NOT NULL,
